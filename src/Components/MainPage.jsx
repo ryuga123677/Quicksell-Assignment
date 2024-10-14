@@ -48,6 +48,7 @@ export const MainPage = () => {
             gap: 3,
             border: "1px solid",
             boxShadow: " 0 2px 8px 1px #ccc",
+             borderColor:"grey"
           }}
           className="displaybutton"
           onClick={handleToggle}
@@ -69,7 +70,7 @@ export const MainPage = () => {
               borderRadius: "5px",
               padding: "10px", 
               boxshadow:"1 2px 8px 1px #ccc",
-           
+               borderColor:"grey"
             }}
           >
             {/* Button 1 */}
@@ -78,6 +79,7 @@ export const MainPage = () => {
                 display: "flex",
                 justifyContent: "space-between",
                 margin: 2,
+
               }}
             >
               <div style={{ color: "grey" }}>Grouping - </div>
@@ -87,6 +89,7 @@ export const MainPage = () => {
                   border: "1px solid",
                   borderRadius: "3px",
                   backgroundColor: "white",
+                   borderColor:"grey"
                 }}
                 onClick={handleToggleNested1}
               >
@@ -107,6 +110,7 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
+                     borderColor:"grey"
                   }}
                   onClick={() => setName("status")}
                 >
@@ -117,6 +121,7 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
+                     borderColor:"grey"
                   }}
                   onClick={() => setName("user")}
                 >
@@ -127,6 +132,7 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
+                     borderColor:"grey"
                   }}
                   onClick={() => setName("priority")}
                 >
@@ -151,6 +157,7 @@ export const MainPage = () => {
                   border: "1px solid",
                   borderRadius: "3px",
                   backgroundColor: "white",
+                   borderColor:"grey"
                 }}
                 onClick={handleToggleNested2}
               >
@@ -171,6 +178,7 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
+                     borderColor:"grey"
                   }}
                   onClick={() => setSortBy("title")}
                 >
@@ -181,6 +189,7 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
+                     borderColor:"grey"
                   }}
                   onClick={() => setSortBy("priority")}
                 >
