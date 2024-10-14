@@ -1,0 +1,10 @@
+.displaybutton{
+    align-items: center;
+    border: 1px solid var(--grey1);
+    border-radius: .4rem;
+    box-shadow: 0 0 5px 2px var(--grey1);
+    cursor: pointer;
+    margin-left: "20px";
+    justify-content: space-between;
+    padding: .4rem .8rem;
+} 

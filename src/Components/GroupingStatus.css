@@ -1,0 +1,26 @@
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height:100%;
+    width: max-content;
+    justify-content: space-evenly;
+    background-color:rgb(244, 245, 248);
+  
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+gap: 10px;
+height: 92vh;
+
+    background-color: rgb(244, 245, 248);
+}
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+  }
