@@ -4,6 +4,7 @@ import axios from "axios";
 import { GroupingUser } from "./GroupingUser";
 import { GroupingPriority } from "./GroupingPriority";
 import inprogress from "../assets/Untitled/icons_FEtask/Display.svg";
+import down from "../assets/Untitled/icons_FEtask/down.svg";
 import "./MainPage.css";
 
 export const MainPage = () => {
@@ -53,7 +54,7 @@ export const MainPage = () => {
           className="displaybutton"
           onClick={handleToggle}
         >
-          <img src={inprogress} alt="Display" /> <div>Display</div>
+          <img src={inprogress} alt="Display" /> <div>Display </div><img src={down}></img>
         </button>
 
         {showButtons && (
@@ -89,11 +90,15 @@ export const MainPage = () => {
                   border: "1px solid",
                   borderRadius: "3px",
                   backgroundColor: "white",
-                   borderColor:"grey"
+                   borderColor:"grey",
+                   display:"flex",
+                   justifyContent: "space-between",
+
                 }}
                 onClick={handleToggleNested1}
               >
-                {name}
+                <div style={{margin:2}}>{name}</div>
+                <img src={down}></img>
               </button>
             </div>
 
@@ -132,11 +137,13 @@ export const MainPage = () => {
                     border: "1px solid",
                     borderRadius: "3px",
                     backgroundColor: "white",
-                     borderColor:"grey"
+                     borderColor:"grey",
+                     
                   }}
                   onClick={() => setName("priority")}
                 >
                   Priority
+                 
                 </button>
               </div>
             )}
@@ -157,11 +164,14 @@ export const MainPage = () => {
                   border: "1px solid",
                   borderRadius: "3px",
                   backgroundColor: "white",
-                   borderColor:"grey"
+                   borderColor:"grey",
+                   display: "flex",
+                     justifyContent: "space-between"
                 }}
                 onClick={handleToggleNested2}
               >
-                {sortBy}
+               <div style={{margin:2}}>{sortBy}</div> 
+               <img src={down}></img>
               </button>
             </div>
 
