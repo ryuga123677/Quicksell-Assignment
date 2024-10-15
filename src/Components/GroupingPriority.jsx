@@ -7,7 +7,7 @@ import Add from "../assets/Untitled/icons_FEtask/add.svg";
 import dots from "../assets/Untitled/icons_FEtask/3 dot menu.svg";
 import High from "../assets/Untitled/icons_FEtask/Img - High Priority.svg";
 import Medium from "../assets/Untitled/icons_FEtask/Img - Medium Priority.svg";
-import UrgentGray from "../assets/Untitled/icons_FEtask/SVG - Urgent Priority grey.svg";
+import UrgentGray from "../assets/Untitled/icons_FEtask/SVG - Urgent Priority colour.svg";
 import Low from "../assets/Untitled/icons_FEtask/Img - Low Priority.svg";
 
 export const GroupingPriority = ({sortedin}) => {
