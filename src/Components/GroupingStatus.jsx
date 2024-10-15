@@ -7,7 +7,7 @@ import Add from "../assets/Untitled/icons_FEtask/add.svg";
 import dots from "../assets/Untitled/icons_FEtask/3 dot menu.svg";
 import Backlog from "../assets/Untitled/icons_FEtask/Backlog.svg";
 import Cancelled from "../assets/Untitled/icons_FEtask/Cancelled.svg";
-import Display from "../assets/Untitled/icons_FEtask/Display.svg";
+import inprogress from "../assets/Untitled/icons_FEtask/in-progress.svg";
 import Done from "../assets/Untitled/icons_FEtask/Done.svg";
 import todo from "../assets/Untitled/icons_FEtask/To-do.svg";
 
@@ -110,7 +110,7 @@ const[count,Setcout]=useState([]);
           <div className="header">
             <div style={{display:"flex",gap:5}}>
             
-              <img src={Display} alt="InProgress" />
+              <img src={inprogress} alt="InProgress" />
               InProgress
             </div>
             <div>
